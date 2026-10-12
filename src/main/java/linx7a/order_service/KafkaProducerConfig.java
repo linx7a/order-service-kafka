@@ -36,6 +36,5 @@ public class KafkaProducerConfig {
             ProducerFactory<String, Order> producerFactory
     ) {
         return new KafkaTemplate<>(producerFactory);
-
     }
 }
